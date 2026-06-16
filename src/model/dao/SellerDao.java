@@ -6,7 +6,6 @@ import model.entities.Seller;
 
 public interface SellerDao {
 
-	public interface DepartmentDao {
 
 		void insert(Seller obj);
 		void update(Seller obj);
@@ -14,4 +13,3 @@ public interface SellerDao {
 		Seller findById(Integer id);
 		List<Seller> findAll();
 	}
-}
